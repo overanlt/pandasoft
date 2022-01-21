@@ -23,7 +23,7 @@ public class BaseActivity  extends AppCompatActivity {
 
     private ProgressDialog mProgressDialogLoader;
     CountDownTimer timer = null;
-    private int TIME_EXPIRE = 10*1000;
+    private int TIME_EXPIRE = 10*60*1000;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
